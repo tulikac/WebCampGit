@@ -16,6 +16,7 @@ namespace MAWSHOL
             lblMessage.Text = strMessage;
 
             System.Diagnostics.Trace.TraceInformation("Page Loaded Successfully ");
+
         }
     }
 }
