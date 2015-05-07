@@ -1,0 +1,16 @@
+C:\demoswebcamp\DevTestCI\WebCampVSO\MAWSHOL\bin\MAWSHOL.dll.config
+C:\demoswebcamp\DevTestCI\WebCampVSO\MAWSHOL\bin\MAWSHOL.dll
+C:\demoswebcamp\DevTestCI\WebCampVSO\MAWSHOL\bin\MAWSHOL.pdb
+C:\demoswebcamp\DevTestCI\WebCampVSO\MAWSHOL\bin\SharedComponents.dll
+C:\demoswebcamp\DevTestCI\WebCampVSO\MAWSHOL\bin\SharedComponents.pdb
+C:\demoswebcamp\DevTestCI\WebCampVSO\MAWSHOL\obj\Debug\WebCampVSO.csprojResolveAssemblyReference.cache
+C:\demoswebcamp\DevTestCI\WebCampVSO\MAWSHOL\obj\Debug\MAWSHOL.dll
+C:\demoswebcamp\DevTestCI\WebCampVSO\MAWSHOL\obj\Debug\MAWSHOL.pdb
+C:\demoswebcamp\DevTestCI\WebCampVSO\WebCampVSO\bin\MAWSHOL.dll.config
+C:\demoswebcamp\DevTestCI\WebCampVSO\WebCampVSO\bin\MAWSHOL.dll
+C:\demoswebcamp\DevTestCI\WebCampVSO\WebCampVSO\bin\MAWSHOL.pdb
+C:\demoswebcamp\DevTestCI\WebCampVSO\WebCampVSO\bin\SharedComponents.dll
+C:\demoswebcamp\DevTestCI\WebCampVSO\WebCampVSO\bin\SharedComponents.pdb
+C:\demoswebcamp\DevTestCI\WebCampVSO\WebCampVSO\obj\Debug\WebCampVSO.csprojResolveAssemblyReference.cache
+C:\demoswebcamp\DevTestCI\WebCampVSO\WebCampVSO\obj\Debug\MAWSHOL.dll
+C:\demoswebcamp\DevTestCI\WebCampVSO\WebCampVSO\obj\Debug\MAWSHOL.pdb

@@ -1,0 +1,8 @@
+C:\AzConf2015\MAWSHOL\MAWSHOL\bin\MAWSHOL.dll.config
+C:\AzConf2015\MAWSHOL\MAWSHOL\bin\MAWSHOL.dll
+C:\AzConf2015\MAWSHOL\MAWSHOL\bin\MAWSHOL.pdb
+C:\AzConf2015\MAWSHOL\MAWSHOL\bin\SharedComponents.dll
+C:\AzConf2015\MAWSHOL\MAWSHOL\bin\SharedComponents.pdb
+C:\AzConf2015\MAWSHOL\MAWSHOL\obj\Release\MAWSHOL.csprojResolveAssemblyReference.cache
+C:\AzConf2015\MAWSHOL\MAWSHOL\obj\Release\MAWSHOL.dll
+C:\AzConf2015\MAWSHOL\MAWSHOL\obj\Release\MAWSHOL.pdb
