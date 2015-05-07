@@ -11,7 +11,7 @@ namespace MAWSHOL
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string strMessage = "Hello World";
+            string strMessage = "Hello World from GitHub";
 
             lblMessage.Text = strMessage;
 
