@@ -12,6 +12,6 @@
         Cloud computing models are changing the technology landscape and providing more opportunities for IT to deliver business impact. Azure, as a cloud platform, offers IaaS, PaaS and SaaS solutions. This track provides deep insights into a gamut of offerings on Azure ‘Compute & Network’ services; including virtual machines, cloud services, websites, mobile services, virtual networks, traffic management and others 
     </div>
             <br />
-            <asp:Label ID="lblMessage" runat="server"></asp:Label> from GitHub
+            <asp:Label ID="lblMessage" runat="server"></asp:Label> from GitHubRepo in Pune
     </div>
 </asp:Content>
