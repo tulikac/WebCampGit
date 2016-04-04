@@ -1,10 +1,10 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MAWSHOL.Site" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MAWSHOL.Site" %> 
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Developer Webcamp 2015</title>
+        <title>Demo WebApp</title>
         <meta name="description" content="description">
         <meta name="author" content="DevWebCamp">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,7 @@
                         <div class="row">
 
                             <div class="col-xs-4 col-sm-8 top-panel-right">
-                                <h4>&nbsp;Developer Webcamp 2015 - Pune </h4>
+                                <h4>&nbsp;Demo WebApp-Azure App Service </h4>
                             </div>
                         </div>
                     </div>
