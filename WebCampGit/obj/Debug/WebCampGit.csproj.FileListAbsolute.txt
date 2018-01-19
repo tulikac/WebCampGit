@@ -6,3 +6,12 @@ C:\demoswebcamp\DevTestCI\WebCampGit\WebCampGit\bin\SharedComponents.pdb
 C:\demoswebcamp\DevTestCI\WebCampGit\WebCampGit\obj\Debug\WebCampGit.csprojResolveAssemblyReference.cache
 C:\demoswebcamp\DevTestCI\WebCampGit\WebCampGit\obj\Debug\MAWSHOL.dll
 C:\demoswebcamp\DevTestCI\WebCampGit\WebCampGit\obj\Debug\MAWSHOL.pdb
+E:\source\webcampgit\WebCampGit\bin\MAWSHOL.dll.config
+E:\source\webcampgit\WebCampGit\bin\MAWSHOL.dll
+E:\source\webcampgit\WebCampGit\bin\MAWSHOL.pdb
+E:\source\webcampgit\WebCampGit\bin\SharedComponents.dll
+E:\source\webcampgit\WebCampGit\bin\SharedComponents.pdb
+E:\source\webcampgit\WebCampGit\obj\Debug\WebCampGit.csprojResolveAssemblyReference.cache
+E:\source\webcampgit\WebCampGit\obj\Debug\WebCampGit.csproj.CoreCompileInputs.cache
+E:\source\webcampgit\WebCampGit\obj\Debug\MAWSHOL.dll
+E:\source\webcampgit\WebCampGit\obj\Debug\MAWSHOL.pdb

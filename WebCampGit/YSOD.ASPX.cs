@@ -10,6 +10,8 @@ namespace MAWSHOL
 {
     public partial class YSOD : System.Web.UI.Page
     {
+        // This page works locally but throws an exception when you 
+        // browse this in Azure App Service
         protected void Page_Load(object sender, EventArgs e)
         {
             Utilities.GetData();
