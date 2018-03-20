@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MAWSHOL
+namespace demomvp
 {
     public partial class YSOD : System.Web.UI.Page
     {

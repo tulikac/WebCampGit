@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MAWSHOL
+namespace demomvp
 {
 
 

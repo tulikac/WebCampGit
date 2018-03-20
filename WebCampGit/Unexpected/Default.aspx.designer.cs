@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MAWSHOL.Unexpected {
+namespace demomvp.Unexpected {
     
     
     public partial class Default {

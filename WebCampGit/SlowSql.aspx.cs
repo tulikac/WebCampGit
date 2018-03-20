@@ -19,7 +19,7 @@ namespace demomvp
             try
             {
 
-                SqlConnection conn = new SqlConnection("Server=tcp:itsqobarp5.database.windows.net,1433;Database=MAWSHOL;User ID=kaushal@itsqobarp5;Password=LS1setup!;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;");
+                SqlConnection conn = new SqlConnection("Server=tcp:itsqobarp5.database.windows.net,1433;Database=demomvp;User ID=kaushal@itsqobarp5;Password=LS1setup!;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;");
                 conn.Open();
                 SqlCommand cmd = new SqlCommand("dbo.sleepingproc", conn);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
