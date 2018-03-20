@@ -18,14 +18,23 @@ namespace MAWSHOL
 
         public async Task LoadSomeData()
         {
+            int delay = 3;
+
+            if (Request.QueryString["t"] !=null)
+            {
+               Int32.TryParse(Request.QueryString["t"].ToString(), out delay);
+            }
 
             HttpClient Client = new HttpClient();
 
-            var clientcontacts = Client.GetStringAsync("http://www.microsoft.com");
-            var clienttemperature = Client.GetStringAsync("http://www.msn.com");
-            var clientlocation = Client.GetStringAsync("http://www.yahoo.com");
+            Client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36");
+            Client.DefaultRequestHeaders.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8");
 
-            await Task.WhenAll(clientcontacts, clienttemperature, clientlocation);
+            var clientcontacts = Client.GetStringAsync("https://httpbin.org/delay/" + delay);
+            
+            await Task.WhenAll(clientcontacts);
+
+            message.Text = clientcontacts.Result;
         }
     }
 }
