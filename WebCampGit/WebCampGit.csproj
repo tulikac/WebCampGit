@@ -72,9 +72,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AsyncThreadDelaySleep.aspx" />
+    <Content Include="correctconnections.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="externalref\SharedComponents.dll" />
     <Content Include="externalref\SharedComponents.pdb" />
+    <Content Include="leakingconnections.aspx" />
     <Content Include="SlowAsync.aspx" />
     <Content Include="TestDatabaseconnection.aspx" />
     <Content Include="Unexpected\Default.aspx" />
@@ -138,12 +140,27 @@
     <Compile Include="AsyncThreadDelaySleep.aspx.designer.cs">
       <DependentUpon>AsyncThreadDelaySleep.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ConnectionUtilities.cs" />
+    <Compile Include="correctconnections.aspx.cs">
+      <DependentUpon>correctconnections.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="correctconnections.aspx.designer.cs">
+      <DependentUpon>correctconnections.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="leakingconnections.aspx.cs">
+      <DependentUpon>leakingconnections.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="leakingconnections.aspx.designer.cs">
+      <DependentUpon>leakingconnections.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services.aspx.cs">

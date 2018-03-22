@@ -16,17 +16,21 @@ namespace demomvp
             var connStr = ConfigurationManager.ConnectionStrings["definedInWebConfig"].ConnectionString;
 
             SqlConnection conn = new SqlConnection(connStr);
+            
+            Response.Write(connStr);
 
             try
             {
                 conn.Open();
+
+                Response.Write("connection succeeded");
+
             }
             catch (Exception ex)
             {
                 Response.Write(ex.GetType().ToString() + "<br/>" + ex.Message + "<br>" + ex.StackTrace);
-                
-            }
 
+            }
         }
     }
 }

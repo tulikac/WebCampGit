@@ -91,6 +91,24 @@
                                     <span class="hidden-xs">Async ThreadDelay Sleep</span>
                                 </a>
                             </li>
+                             <li class="dropdown">
+                                <a href="~/TestDatabaseconnection.aspx" class="dropdown-toggle" runat="server">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                    <span class="hidden-xs">Test Database connection</span>
+                                </a>
+                            </li>
+                             <li class="dropdown">
+                                <a href="~/leakingconnections.aspx" class="dropdown-toggle" runat="server">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                    <span class="hidden-xs">LeakingConnections</span>
+                                </a>
+                            </li>
+                              <li class="dropdown">
+                                <a href="~/correctconnections.aspx" class="dropdown-toggle" runat="server">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                    <span class="hidden-xs">Correct Connections</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
 

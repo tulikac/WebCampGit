@@ -11,7 +11,7 @@ namespace demomvp
 {
 
 
-    public partial class TestDatabaseconnection
+    public partial class correctconnections
     {
     }
 }
