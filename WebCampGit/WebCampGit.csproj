@@ -78,6 +78,7 @@
     <Content Include="externalref\SharedComponents.pdb" />
     <Content Include="leakingconnections.aspx" />
     <Content Include="SlowAsync.aspx" />
+    <Content Include="StackOverflowPage.aspx" />
     <Content Include="TestDatabaseconnection.aspx" />
     <Content Include="Unexpected\Default.aspx" />
     <Content Include="Unexpected\Web.config" />
@@ -88,6 +89,7 @@
     <Content Include="plugins\bootstrapvalidator\bootstrapValidator.scss" />
     <Content Include="plugins\bootstrap\bootstrap-theme.css.map" />
     <Content Include="plugins\bootstrap\bootstrap.css.map" />
+    <Content Include="UnhandledException.aspx" />
     <Content Include="YSOD.ASPX" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\azconf.pubxml" />
@@ -198,6 +200,13 @@
     <Compile Include="SlowSql.aspx.designer.cs">
       <DependentUpon>SlowSql.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StackOverflowPage.aspx.cs">
+      <DependentUpon>StackOverflowPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StackOverflowPage.aspx.designer.cs">
+      <DependentUpon>StackOverflowPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TestDatabaseconnection.aspx.cs">
       <DependentUpon>TestDatabaseconnection.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -211,6 +220,13 @@
     </Compile>
     <Compile Include="Unexpected\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnhandledException.aspx.cs">
+      <DependentUpon>UnhandledException.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnhandledException.aspx.designer.cs">
+      <DependentUpon>UnhandledException.aspx</DependentUpon>
     </Compile>
     <Compile Include="ValuesController.cs" />
     <Compile Include="YSOD.ASPX.cs">

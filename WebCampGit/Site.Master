@@ -109,6 +109,18 @@
                                     <span class="hidden-xs">Correct Connections</span>
                                 </a>
                             </li>
+                             <li class="dropdown">
+                                <a href="~/UnhandledException.aspx" class="dropdown-toggle" runat="server">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                    <span class="hidden-xs">Unhandled exception</span>
+                                </a>
+                            </li>
+                             <li class="dropdown">
+                                <a href="~/stackoverflowpage.aspx" class="dropdown-toggle" runat="server">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                    <span class="hidden-xs">Stack Overflow</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
