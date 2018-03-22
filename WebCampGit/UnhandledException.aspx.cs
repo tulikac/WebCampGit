@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -12,14 +13,10 @@ namespace demomvp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ThreadStart ts = new ThreadStart(Crashme);
-            System.Threading.Thread t = new System.Threading.Thread(ts);
-            t.Start();
-        }
-
-        void Crashme()
-        {
-            throw new ApplicationException("I will crash your process");
-        }
+            Task.Run(() =>
+            {
+                throw new ApplicationException("I will crash your process");
+            });
+        }       
     }
 }
