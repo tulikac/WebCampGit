@@ -76,6 +76,7 @@
     <Content Include="externalref\SharedComponents.dll" />
     <Content Include="externalref\SharedComponents.pdb" />
     <Content Include="SlowAsync.aspx" />
+    <Content Include="TestDatabaseconnection.aspx" />
     <Content Include="Unexpected\Default.aspx" />
     <Content Include="Unexpected\Web.config" />
     <Content Include="Site.Master" />
@@ -179,6 +180,13 @@
     </Compile>
     <Compile Include="SlowSql.aspx.designer.cs">
       <DependentUpon>SlowSql.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestDatabaseconnection.aspx.cs">
+      <DependentUpon>TestDatabaseconnection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestDatabaseconnection.aspx.designer.cs">
+      <DependentUpon>TestDatabaseconnection.aspx</DependentUpon>
     </Compile>
     <Compile Include="Unexpected\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
