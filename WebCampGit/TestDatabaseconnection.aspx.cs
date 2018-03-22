@@ -13,17 +13,28 @@ namespace demomvp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ConnectionStringsSection csSection = (ConnectionStringsSection)ConfigurationManager.GetSection("connectionStrings");
+            var defaultProviderName = csSection.ElementInformation.Properties["ProviderName"].DefaultValue.ToString();
+
+            Response.Write("defaultProvider = " + defaultProviderName);
+
+            Response.End();
+
             var connStr = ConfigurationManager.ConnectionStrings["definedInWebConfig"].ConnectionString;
 
             SqlConnection conn = new SqlConnection(connStr);
             
             Response.Write(connStr);
 
+            
+
             try
             {
                 conn.Open();
 
                 Response.Write("connection succeeded");
+                
+               
 
             }
             catch (Exception ex)
