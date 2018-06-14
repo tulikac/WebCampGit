@@ -5,7 +5,7 @@
         <div>
        <br />
 
-    <h2>Home</h2>
+    <h2>Home </h2>
     <br />
 
     <div>
